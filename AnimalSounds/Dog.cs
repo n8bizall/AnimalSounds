@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace AnimalSounds
 {
-    public class Dog : IAnimalSounds
+    public class Dog : Isounds
     {
            
-        public string GetAnimalName()
+        public string GetName()
         {
             return "dog";
         }
 
-        public string GetAnimalSound()
+        public string GetSound()
         {
             return "ruff ruff";
         }

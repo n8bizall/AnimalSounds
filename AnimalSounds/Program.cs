@@ -24,13 +24,14 @@ namespace AnimalSounds
             Chicken chicken = new Chicken();
             Pig pig = new Pig();
             Tiger tiger = new Tiger();
+            BassDrum bassdrum = new BassDrum();
 
 
-            IAnimalSounds[] animals = {dog, monkey, cat, fish, bird, snake, chicken, pig, tiger };
+            Isounds[] animals = {dog, monkey, cat, fish, bird, snake, chicken, pig, tiger, bassdrum };
 
-            foreach(IAnimalSounds animal in animals){
-                string animalName = animal.GetAnimalName();
-                string animalSound = animal.GetAnimalSound();
+            foreach(Isounds animal in animals){
+                string animalName = animal.GetName();
+                string animalSound = animal.GetSound();
                 string message = $"A {animalName}  says {animalSound}.";
 
                 Console.WriteLine(message);

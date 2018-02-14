@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace AnimalSounds
 {
-    public interface IAnimalSounds
+    public interface Isounds
     {
-        string GetAnimalName();
-        string GetAnimalSound();
+        string GetName();
+        string GetSound();
         string ToPrint();
     }
 }

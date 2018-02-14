@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 namespace AnimalSounds
 {
-    public class Tiger : Isounds
+    public class BassDrum : Isounds
+
     {
         public string GetName()
         {
-            return "tiger";
+            return "bass drum";
         }
+
         public string GetSound()
         {
-            return "Who Dey";
+            return "boomboom";
         }
 
         public string ToPrint()

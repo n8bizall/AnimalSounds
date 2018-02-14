@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace AnimalSounds
 {
-    public class Bird : IAnimalSounds
+    public class Bird : Isounds
     {
-        public string GetAnimalName()
+        public string GetName()
         {
             return "bird";
         }
 
-        public string GetAnimalSound()
+        public string GetSound()
         {
             return "poly want a cracker";
         }
